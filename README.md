@@ -15,3 +15,4 @@ SQLINSERT.sql - Contains insert statements of exemplary data (about 140 rows)
 SQLQueries.sql - Contains exemplary queries that can be performed on this database
 
 # ERD diagram
+![img](https://github.com/Krzy-Doma/DB_Train_Stations/blob/main/erd.png)
