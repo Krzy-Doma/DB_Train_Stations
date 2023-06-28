@@ -48,16 +48,16 @@ INSERT INTO Person VALUES (1008,'Wojciech' ,'Noris', 71, 'M');
 INSERT INTO Person VALUES (1009,'Anna' ,'Bucha', 61, 'F');
 INSERT INTO Person VALUES (1010,'Lech' ,'Hubertowicz', 51, 'M');
 
-INSERT INTO Train_Stations VALUES (10001,'Warszawa' ,'G³ówny', '1890');
-INSERT INTO Train_Stations VALUES (10101,'Kraków' ,'G³ówny', '1990');
-INSERT INTO Train_Stations VALUES (10201,'Gdañsk' ,'G³ówny', '1897');
-INSERT INTO Train_Stations VALUES (10301,'S³upsk' ,'G³ówny', '1990');
-INSERT INTO Train_Stations VALUES (10401,'Szczecin' ,'G³ówny', '1890');
-INSERT INTO Train_Stations VALUES (10501,'Czestochowa' ,'G³ówny', '1999');
-INSERT INTO Train_Stations VALUES (10601,'Katowice' ,'G³ówny', '1899');
-INSERT INTO Train_Stations VALUES (10701,'Gdynia' ,'G³ówny', '1900');
-INSERT INTO Train_Stations VALUES (10801,'Rzeszow' ,'G³ówny', '2001');
-INSERT INTO Train_Stations VALUES (10901,'Bydgoszcz' ,'G³ówny', '2023');
+INSERT INTO Train_Stations VALUES (10001,'Warszawa' ,'GÂ³Ã³wny', '1890');
+INSERT INTO Train_Stations VALUES (10101,'KrakÃ³w' ,'GÂ³Ã³wny', '1990');
+INSERT INTO Train_Stations VALUES (10201,'GdaÃ±sk' ,'GÂ³Ã³wny', '1897');
+INSERT INTO Train_Stations VALUES (10301,'SÂ³upsk' ,'GÂ³Ã³wny', '1990');
+INSERT INTO Train_Stations VALUES (10401,'Szczecin' ,'GÂ³Ã³wny', '1890');
+INSERT INTO Train_Stations VALUES (10501,'Czestochowa' ,'GÂ³Ã³wny', '1999');
+INSERT INTO Train_Stations VALUES (10601,'Katowice' ,'GÂ³Ã³wny', '1899');
+INSERT INTO Train_Stations VALUES (10701,'Gdynia' ,'GÂ³Ã³wny', '1900');
+INSERT INTO Train_Stations VALUES (10801,'Rzeszow' ,'GÂ³Ã³wny', '2001');
+INSERT INTO Train_Stations VALUES (10901,'Bydgoszcz' ,'GÂ³Ã³wny', '2023');
 
 INSERT INTO Ticket VALUES (100001, 1, 1001);
 INSERT INTO Ticket VALUES (100002, 2, 1004);
