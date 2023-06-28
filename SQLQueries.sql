@@ -85,7 +85,7 @@ WHERE TS.Destination IN (SELECT Destination
 											FROM Normal_Day
 											WHERE Day = 'MON');
 
--- Show trains that arrive to Gdañsk after 15:00 on 02.03.2022 and their destination is Gdynia 
+-- Show trains that arrive to GdaÃ±sk after 15:00 on 02.03.2022 and their destination is Gdynia 
 
 SELECT ACT.Type, ACT.Train_ID, RTS.Real_Arrival_Time,TS.Origin, TS.Destination, RTR.Date
 FROM Actuall_Train AS ACT
@@ -95,7 +95,7 @@ JOIN Train_Schedule TS ON TS.Schedule_ID = RTR.Schedule_ID
 WHERE RTS.Distance_from_Beg IN (SELECT TSt.Distance_from_Beg
 								FROM Train_Stops AS TSt
 								JOIN Train_Stations TSTa ON TSTa.Station_ID = TST.Station_ID
-								WHERE TSTa.City = 'Gdañsk') 
+								WHERE TSTa.City = 'GdaÃ±sk') 
 							AND DATEPART(hh, RTS.Real_Arrival_Time) > 15
 							AND TS.Target_Station_ID IN (	SELECT TSTa.Station_ID
 															FROM Train_Stations AS TSTa
@@ -103,7 +103,7 @@ WHERE RTS.Distance_from_Beg IN (SELECT TSt.Distance_from_Beg
 							AND RTR.Date = '2-03-2022'
 ORDER BY RTS.Real_Departure_Time;
 
--- jakie pociagi jeszcze nie przejechaly ¿adnej drogi
+-- jakie pociagi jeszcze nie przejechaly Â¿adnej drogi
 
 SELECT ACT.Type, ACT.Train_ID, RTR.Real_Train_Route_ID
 FROM Actuall_Train AS ACT
