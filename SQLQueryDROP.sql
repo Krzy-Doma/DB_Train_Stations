@@ -1,0 +1,14 @@
+DROP TABLE ND_Schedule;
+DROP TABLE Normal_Day;
+DROP TABLE Passenger_Route;
+DROP TABLE Real_Train_Stop;
+DROP TABLE SD_Schedule;
+DROP TABLE Special_Day;
+DROP TABLE Ticket;
+DROP TABLE Train_Stops;
+DROP TABLE Person;
+DROP TABLE Real_Train_Route;
+DROP TABLE Train_Schedule;
+DROP TABLE Train_Stations;
+DROP TABLE Actuall_Train;
+DROP TABLE Train_Type;
