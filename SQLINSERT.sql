@@ -1,5 +1,6 @@
 /*
-	Krzysztof Domarecki 181762
+	DB PG WETI PROJECT
+	Krzysztof Domarecki
 	Train stations
 */
 
